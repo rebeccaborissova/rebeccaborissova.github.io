@@ -4,71 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Rebecca Borissova - Portfolio</title>
+    <title>Rebecca's CS Portfolio</title>
 </head>
 <body>
+
     <header>
-        <div class="container">
-            <h1>Rebecca Borissova</h1>
-            <p>Computer Science Student, Seeking Internships for Summer 2024</p>
-        </div>
+        <h1>Rebecca Borissova</h1>
+        <h2>Computer Science Major, Statistics Minor at the University of Florida</h2>
     </header>
 
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>Student at the University of Florida, majoring in Computer Science with a minor in Statistics</p>
+    <section class="projects">
+        <h2>My Projects</h2>
+        <div class="project" onclick="redirectToMinesweeper()">
+            <h3>Minesweeper</h3>
+            <p>A recreation of the classic online game "Minesweeper" in <b>C++</b> and <b>SFML</b>.
+                This project required understanding how to use graphics libraries, performing in-game event handling, understanding the behavior of each tile, and structuring the game using encapsulation.</p>
         </div>
-    </section>
-
-    <section id="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>Minesweeper</h3>
-                <p>A recreation of the classic online game "Minesweeper" in C++ and SFML.</p>
-                <p>This project required understanding how to use graphics libraries, performing in-game event handling, understanding the behavior of each tile, and structuring the game using encapsulation.</p>
-            </div>
-            <div class="project">
-                <h3>Blackjack Simulator</h3>
-                <p>This is a GUI which allows you to simulate a game of blackjack using three different strategies: basic strategy, advanced strategy, and card counting.</p> 
-            <ul>
-                <p>Basic strategy: The player holds when their hand is greater than or equal to 17, hits otherwise.</p>
-                <p>Advanced Strategy: The player's decisions are based off the following probability table (credit: Wikipedia.com)</p>
-                <!---Insert Image Here---->
-                <p>Card Counting: The Hi-Low strategy is used to count the cards.
-                    High cards, with a value of 17 or greater, are considered "high cards", while cards that are 6 or lower are considered "low cards".
-                    When a "low card" goes out, you increase the count by 1, and when a high card goes out, you decrease the count by 1.
-                    This "running count" is then used to determine whether the player should bet high or low.
-                </p>
-            </ul>
-            </div>
-            <div class="project">
-                <h3>*Project Idea* Chess</h3>
-                <p>This is a recreation of the classic game of Chess in an online format using Node.js</p>
-            </div>
-            <div class="project">
-                <h3>*Project Idea* Scraping either facebook or department of transportation website</h3>
-                <p>This project involved scraping data from the department of transportation website to help a client advertise their business.</p>
-            </div>
+        <div class="project" onclick="redirectToBlackjack()">
+            <h3>Blackjack Statistics</h3>
+            <p>This is a GUI which allows you to simulate a game of blackjack using three different strategies: basic strategy, advanced strategy, and card counting. 
+               The program then calculates various statistics for all three strategies and displays them to the user.
+               This project used <b>python</b> to create the blackjack simulation, <b>pygame</b> to create the GUI, as well as <b>scipy</b> and <b>matplotlib</b> to visualize the statistics.
+            </p>
         </div>
-    </section>
-
-    <section id="contact">
-        <div class="container">
-            <h2>Contact</h2>
-            <p>Feel free to contact me:</p>
-            <a href="https://www.linkedin.com/in/rborissova">
-                <button type="button">Linkedin</button>
-            </a>
-            
+        <div class="project" onclick="redirectToTruckInsuranceScraper()">
+            <h3>Truck Insurance Scraper</h3>
+            <p>Navigates through the US Department of Transportation website to collect data on truck insurance policies. 
+                The scraper uses the <b>pyautogui</b> and <b>selenium</b> packages with <b>python</b> to navigate the website, and saves the relevant data into a csv file.</p>
         </div>
     </section>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2023 Rebecca Borissova</p>
-        </div>
+        Rebecca Borissova
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
