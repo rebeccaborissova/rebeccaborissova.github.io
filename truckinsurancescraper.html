@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Truck Insurance Scraper</title>
+</head>
+<body>
+    <header>
+        <h1>Truck Insurance Scraper</h1>
+        <button class="home-button" onclick="goHome()">Home</button>
+    </header>
+    <section class='project-description'>
+        <p>
+            This script navigates the US Department of Transportation website to scrape data about truck insurance policies.
+            The program uses the selenium and pyautogui packages with python to automatically navigate the website. 
+            This program collects data on truck insurance companies, the date their truck insurance expires, and the type of truck insurance they have.
+            This data is then cleaned and saved into a csv file to be easily parsed later. <br>
+            <i>Note: Script is run in GUI browser and slowed down for demonstration purposes. CSV file shown is from a previous run of the scraper.</i>
+        </p>
+    </section>
+    <video width=100% autoplay muted>
+        <source src="truckinsurancebot.mp4" type="video/mp4">
+    </video>
+
+    <script src="script.js"></script>
+</body>
+</html>
