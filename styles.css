@@ -63,6 +63,14 @@ section {
 }
 
 .project-description p {
+    color: black;
+}
+
+.project-description h1 {
+    color: #7c0b3c;
+}
+
+.project-description h2 {
     color: #7c0b3c;
 }
 
