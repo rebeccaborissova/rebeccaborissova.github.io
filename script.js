@@ -13,3 +13,11 @@ function redirectToTruckInsuranceScraper() {
 function goHome() {
     window.location.href = "index.html";
 }
+
+function goToLinkedin() {
+    window.location.href = "https://www.linkedin.com/in/rborissova";
+}
+
+function goToGithub() {
+    window.location.href = "https://github.com/rebeccaborissova";
+}

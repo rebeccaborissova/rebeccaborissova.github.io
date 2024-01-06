@@ -74,8 +74,26 @@ section {
     color: #7c0b3c;
 }
 
+.statistics {
+    background-color: #f9e3e3;
+    padding: 20px;
+    justify-content: center;
+}
+
+.statistics h1 {
+    color: black;
+}
+
+.statistics h2 {
+    color: black;
+}
+
+.statistics p {
+    color: black;
+}
+
 video {
-    max-height: 800px;
+    max-height: 600px;
     margin: 30px;
     display: block;
     margin-left: auto;
@@ -107,4 +125,19 @@ footer {
     text-align: center;
     padding: 1em 0;
     width: 100%;
+}
+
+.footer-button {
+    background-color: #bc477c;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.footer-button:hover {
+    background-color: #a14870;
 }
