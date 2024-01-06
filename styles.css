@@ -42,6 +42,18 @@ section {
     margin: 1em 1em 0px 1em;
 }
 
+.research-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.research-projects h2 {
+    font-size: 16pt;
+    color: #a14870;
+    margin: 1em 1em 0px 1em;
+}
+
 .project {
     cursor: pointer;
     margin: 0px 0.8em 1em 0.8em;
