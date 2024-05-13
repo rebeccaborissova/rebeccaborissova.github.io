@@ -1,39 +1,40 @@
 baseURL: "http://rebeccaborissova.github.io/"
 languageCode: en-us
-title: My New Hugo Site
+title: Rebecca Borissova
 theme: PaperMod
 
 enableEmoji: true
 
 params:
-  author: David Hwang
+  author: Rebecca Borissova
   homeInfoParams:
-    Title: "the dev playbook"
+    Title: "My Portfolio"
     Content: >
-      Welcome to the **dev playbook** 🎉
-
-      - This is a space where I will mostly be sharing about Go & Kubernetes 🙂
+      Welcome to my portfolio! My name is Rebecca Borissova, and I am a student at the University of Florida. I am double majoring in Computer Science and Statistics! 
+      I'm interested in machine learning, which I get to apply in my work at the Burke-Maurer lab at UF, where I use ML to recognize animal poses and categorize their behaviors.
+      I also have experience with frontend development through my work at Insurance Agency Plus and Motorola Solutions. In my free time, I love teaching and dancing ballet, riding rollercoasters,
+      learning about theme park design and logistics, and rock climbing with my friends! Feel free to contact me through any platform listed below :)
 
   socialIcons:
     - name: Github
-      url: "https://github.com/dhij"
-    - name: Youtube
-      url: "https://www.youtube.com/@dhij"
-    - name: Rss
-      url: "index.xml"
+      url: "https://github.com/rebeccaborissova"
+    - name: Linkedin
+      url: "www.linkedin.com/in/rborissova"
+    - name: Email
+      url: "mailto:rborissova@ufl.edu"
 
   ShowReadingTime: true
   ShowShareButtons: true
 
 menu:
   main:
-    - identifier: categories
-      name: Categories
-      url: /categories/
+    - identifier: resume
+      name: Resume
+      url: /resume/
       weight: 10
-    - identifier: tags
-      name: Tags
-      url: /tags/
+    - identifier: projects
+      name: Projects
+      url: /projects/
       weight: 20
     - identifier: archives
       name: Archives
