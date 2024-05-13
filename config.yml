@@ -2,3 +2,40 @@ baseURL: "http://rebeccaborissova.github.io/"
 languageCode: en-us
 title: My New Hugo Site
 theme: PaperMod
+
+enableEmoji: true
+
+params:
+  author: David Hwang
+  homeInfoParams:
+    Title: "the dev playbook"
+    Content: >
+      Welcome to the **dev playbook** 🎉
+
+      - This is a space where I will mostly be sharing about Go & Kubernetes 🙂
+
+  socialIcons:
+    - name: Github
+      url: "https://github.com/dhij"
+    - name: Youtube
+      url: "https://www.youtube.com/@dhij"
+    - name: Rss
+      url: "index.xml"
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30
